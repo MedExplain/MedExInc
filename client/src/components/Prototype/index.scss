@@ -1,0 +1,113 @@
+.containerproto {
+    div.text-container {
+        order: 1; // Set the order of the text-container div
+        flex-basis: 65%; // Set the text-container to take up 65% of the width on non-mobile view
+        padding-left: 0;
+        padding-right: 25px;
+    }
+
+    div.image-container {
+        order: 2; // Set the order of the image-container div
+        flex-basis: 35%; // Set the image-container to take up 35% of the width on non-mobile view
+        padding-left: 25px;
+        padding-top: 15px;
+        width: 95%;
+    }
+
+    padding-top: 220px;
+    padding-bottom: 220px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .containerproto {
+        justify-content: center; // Center align the container's content on mobile view
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .containerproto div.text-container {
+        flex-basis: 95%; // Set the text-container to take up 100% of the width on mobile view
+        text-align: center; // Center align the text on mobile view
+        padding-right: 0px;
+    }
+
+    .containerproto div.image-container {
+        flex-basis: 60%; // Set the image-container to take up 80% of the width on mobile view
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 25px;
+        text-align: center; // Center align the image on mobile view
+    }
+}
+
+
+
+
+.a, a:link, a:visited {
+    color: #453793;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.625;
+    letter-spacing: 0.00938em;
+}
+
+
+
+.home {
+  padding: 60px;
+  box-sizing: border-box;
+
+ /*.articletitle{
+      font-weight:600 !important;
+  }*/
+
+  h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    color: #453793;
+  }
+
+  .popularArticles {
+    width: 100%;
+
+    .articleItem {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      margin-bottom: 30px;
+
+      .viewImage {
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .viewDetail {
+        width: 100%;
+        padding-right: 30px;
+        box-sizing: border-box;
+
+        a{
+          font-weight: 600;
+          font-size: 16px;
+          color: #000;
+          text-decoration: none;
+
+          &:hover {
+            cursor: pointer;
+            color: #453793;
+          }
+        }
+      }
+    }
+  }
+}

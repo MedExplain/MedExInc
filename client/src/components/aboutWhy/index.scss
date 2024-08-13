@@ -1,0 +1,155 @@
+.medexplain-containerW {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 32px 0px 32px;
+    background-color: #F7F8F7;
+    max-width: 100%;
+    margin: auto;
+}
+
+.medexplain-header-containerW {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.medexplain-body-containerW {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.medexplain-content-containerW {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1.4; // Take up twice the space as the image container if needed
+}
+
+/*
+.medexplain-content-container {
+    display: flex;
+    flex-direction: row; // Align content side by side
+    gap: 32px; // Space between text and images
+}*/
+
+/*.medexplain-content, */
+.eighty-image {
+    flex: 1;
+    /*  width: 532px;
+    height: 280px;*/
+    /* bottom: 0; // Adjusted to be at the bottom of the container
+    left: 50%; // Center horizontally
+    transform: translateX(-50%) rotate(0); // Adjust translation for centering and apply rotation*/
+    /*background-size: cover;
+    background-position: center;
+    filter: drop-shadow(4px -4px 16px rgba(247, 247, 247, 0.25));*/
+  }
+
+.eightyImage {
+    width: 70%;
+    height: auto;
+    float: right;
+    margin-right: 30px;
+}
+
+.informed {
+    color: #353C81;
+    font-weight: 600;
+}
+
+.medexplain-headerW {
+    padding-top: 50px;
+    text-align: center; // This will center the text
+    font-family: 'SF Pro', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+/* Navigating health information online can be overwhelming and unreliable. */
+
+
+.medexplain-subheaderW {
+    font-family: 'SF Pro', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #262626;
+    text-align: center;
+    margin: 0; // Ensure there is no default margin
+    padding-bottom: 50px;
+}
+
+.medexplain-titleW {
+    font-family: 'SF Pro', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #000000; //#262626;
+    margin: 0; // Ensure there is no default margin
+    padding-bottom: 15px;
+}
+
+.medexplain-storyW {
+    font-family: 'SF Pro', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #000000; //   #262626;
+    margin: 0; // Ensure there is no default margin
+    word-wrap: break-word; // Ensure text wraps in container
+    padding-bottom: 10px;
+}
+// Media query for responsive adjustments
+@media (max-width: 768px) {
+    medexplain-body-containerW {
+        flex-direction: column;
+    }
+
+    .medexplain-body-containerW {
+        display: block;
+    }
+
+    .medexplain-headerW {
+        font-size: 24px;
+        line-height: 35px;
+        padding: 0 20px; // Add padding to prevent text from touching the sides
+        br {
+            display: none; // Hide line breaks to keep text on one line on small screens
+        }
+    }
+    .eighty-image{
+       display:flex;
+       order: 1;  
+        }
+
+    .eightyImage {
+        width: 80%;
+        float: none;
+        margin: auto auto;
+    }
+    .medexplain-subheaderW {
+        font-size: 14px; // Smaller text on smaller screens
+        padding-bottom: 0px;
+    }
+
+    .medexplain-titleW {
+        font-size: 22px; // Smaller title on smaller screens
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .medexplain-storyW {
+        font-size: 16px; // Smaller body text on smaller screens
+    }
+
+    .medexplain-containerW {
+        flex-direction: column;
+    }
+
+    .eightySpacer{display:none;}
+}

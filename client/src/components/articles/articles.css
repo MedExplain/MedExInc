@@ -1,0 +1,508 @@
+/*article content*/
+
+h2.title {
+    color: black;
+    font-size: 28pt;
+    font-weight: 600;
+    padding-bottom: 10px;
+    /* align-content: center;*/
+    /*  justify-content: center;*/
+    /*  align-items: center;*/
+    /* text-align: center;*/
+}
+
+.article-container {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+      margin-top: 0px;
+    margin-bottom: 0px;
+   /* overflow-y: auto;*/
+ /*   text-align: center;*/
+   /* align-content: center;*/
+    justify-content: left;
+    /*align-items: center;*/
+    padding-left:80px;
+}
+
+.articleshare {
+    padding-left: 60px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-top: 10px;
+}
+.sharetext {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-right: 15px;
+}
+.questions-container {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* overflow-y: auto;*/
+    /*   text-align: center;*/
+    /* align-content: center;*/
+    justify-content: left;
+    /*align-items: center;*/
+   }
+
+.article-content {
+    width: 99%;
+    padding-bottom:20px;
+   /* align-content: center;*/
+  /*  justify-content: center;*/
+    /*align-items: center;*/
+}
+    .article-content img {
+        max-width: 95%;
+        height: auto;
+    }
+
+.publication-date {
+    font-size: .75em;
+    font-weight: 500;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+/*youtube*/
+.youtube-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* Aspect ratio for 16:9 videos */
+    overflow: hidden;
+    margin-bottom: 1px;
+    margin-top: 50px;
+  }
+
+    .youtube-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 90%;
+        height: 90%;
+        border: 2px solid #333;
+        border-radius: 5px;
+    }
+
+    /*questions*/
+
+.option-container label {
+    margin-left: 5px; /* Adjust the size as needed */
+}
+
+#WhatYouLearned {
+    margin-top: 30px;
+    width: 100%;
+/*    text-align: center;*/
+}
+
+#ImproveMedExHeader {
+    display: flex;
+    font-weight:600;
+    font-size:1.4em;
+ /*   align-items: center;
+    justify-content: center;*/
+}
+
+#ImproveMedExIcon {
+    margin-right: 10px;
+}
+.questions {
+    width: 99%;
+    /*
+    float: left;*/
+    /*border: 1px solid #86BFFF;
+    border-radius: 10px;*/ /* Add rounded corners */
+    /*border-top-width: 5px;*/
+/*    align-items: center;*/
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+  /*  justify-content: left;*/
+    /*box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);*/ /* Add box shadow */
+}
+.questionText {
+    font-size: 1.25rem;
+    padding-left:20px;
+    font-weight:500;
+    /* margin-bottom:10px;*/
+}
+.questions-content {
+    width: 100%;    
+}
+.em {
+    font-weight: bold;
+}
+.correct-option {
+    color: green;
+    
+}
+.incorrect-option {
+    color: red;
+}
+.unknown-option {
+    color: gray;
+}
+.option-container {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+/*authors*/
+/*.authors-container {
+    width: 25%;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: auto;
+}*/
+
+.authors {
+/*    width: 99%;
+*/    /*border: 2px solid #009489; 
+    border-radius: 10px;*/ /* Add rounded corners */
+    border-top-width: 3px;
+    align-items: center;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+   /* justify-content: center; */
+    flex-wrap: wrap; /* This allows for wrapping if there are many authors */
+    /*box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);*/ /* Add box shadow */
+}
+.authors, .pals {
+    width: auto; /* or specify a width that fits your design, like 48% for each if you want them to fill the container equally */
+    flex-grow: 1; /* this will allow each section to grow and use up available space */
+    margin-top: 2px; /* Keep or adjust the margin as per your layout needs */
+    margin-bottom: 15px;
+}
+.authors-pals-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.authors {
+    flex-grow: 1;
+}
+
+.pals-container {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0; /* Prevent shrinking below content size */
+    justify-content: left; 
+}
+
+.pals-logo {
+    margin-right: 10px; /* Spacing between logo and text */
+    margin-left:0px;
+    margin-top: 0px;
+    width: 190px;
+}
+
+.pals-content {
+    display: flex;
+    align-items: center;
+}
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none; /* For older versions of Safari */
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    width: .8em; /* Adjust the size of the radio button */
+    height: .8em; /* Adjust the size of the radio button */
+    border: 0.1em solid silver;    /*8971DE*/
+    border-radius: 50%;
+    position: relative; /* Required for the pseudo-element positioning */
+    cursor: pointer;
+}
+
+    input[type="radio"]:checked {
+        background-color: silver; /* 86BFFF Background color for checked state */
+    }
+
+        input[type="radio"]:checked::after {
+            content: '';
+            position: absolute;
+            top: 0.2em;
+            left: 0.2em;
+            width: .7em; /* Adjust the size of the inner dot */
+            height: .7em; /* Adjust the size of the inner dot */
+            border-radius: 50%;
+         /*   background: white;*/
+        }
+
+    /*.author-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;*/ /* Adjust the space between image and details */
+    /*padding: 5px;
+    padding-left:200px;
+}*/
+
+.author-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 80%;
+    object-fit: cover;
+}
+
+.author-details {
+    display: flex;
+    flex-direction: column;
+  /*  justify-content: center;*/
+}
+
+.author-name,
+.author-credentials,
+.author-affiliations {
+    font-size: .6em;
+    margin: 0; /* Removes default margins for consistency */
+    line-height: 1.2; /* Adjusts the spacing between lines */
+}
+
+.pals {
+    justify-content: flex-end; /* this will push the PALS logo to the right */
+}
+
+.pals img{
+    width:100px;
+}
+/*see the science*/
+.evidence-modal {
+    background-color: white;
+    width: 70%;
+    max-height: 80%; /* specify max-height */
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    outline: 0;
+    z-index: 1049;
+    padding: 10px;
+    margin-top: 30px;
+    overflow-y: auto;
+}
+
+    .evidence-modal p.modal-copy {
+float: right;
+font-size: .8em;
+
+}
+
+/*.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;*/ /* aligns content to the center vertically */
+    /*justify-content: center;*/ /* aligns content to the center horizontally */
+    /*width: 100%;
+}
+    .modal-content h2 {
+        float: left;
+        width: 100%; 
+        font-family: "Times New Roman", Times, serif;
+    }*/
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* adjust the 0.4 as needed to get the desired transparency */
+    z-index: 0; /* ensure the overlay is below the modal but above everything else */
+}
+div.es-button {
+    align-items: center;
+    justify-content: center;
+    width: 99%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+.evidence-button {
+    background: linear-gradient(to bottom, #33cc99 0%, #009966 100%); /* break from the site's primary colors */
+    border: none;
+    color: white; /* text color */
+    font-weight: 600;
+    padding: 10px 20px 10px 10px; /* adjust as needed for size */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; /* adjust as needed */
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 12px; /* adjust as needed for rounded corners */
+    transition: all 0.5s; /* for a smooth hover effect */
+}
+
+    .evidence-button:hover {
+        background: linear-gradient(to bottom, #009966 0%, #33cc99 100%); /* switch the colors on hover */
+        box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1); /* optional: add a shadow on hover */
+    }
+:root {
+    --beautiful-blue: #13222b; 
+}
+
+
+#esreferences {
+    font-size: small;
+    text-align: left;
+    width:100%;
+    padding-left:15px;
+    padding-bottom:20px;
+  }
+    #esreferences ol {
+        font-size: small;
+        text-align: left;
+    }
+    #esreferences a {
+        font-size: small;
+        text-align: left;
+    }
+.close-button {
+    position: absolute;
+    right: 10px; /* adjust as needed */
+    top: 10px; /* adjust as needed */
+    background: none;
+    border: none;
+    font-size: 1em; /* adjust as needed */
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+
+    /*mobile article content*/
+
+    h2.title {
+       font-size: 14pt;
+    }
+
+    .article-container {
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    .article-content {
+        width: 99%;
+        font-size: 12pt;
+     /*   align-items: center;
+        justify-content: center;*/
+    }
+
+    /*mobile authors*/
+
+    .authors {
+        width: 100%;
+      /*  align-items: center;*/
+        padding: 2px;
+        display: flex;
+        flex-direction: row;
+      /*  justify-content: center;*/
+     /*   background: linear-gradient(135deg, rgba(134, 191, 255, 0.1) 30%, rgba(169, 113, 222, 0.1) 50%, rgba(67, 53, 146, 0.1) 70%);*/
+    }
+    .author-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 5px;
+         }
+    .authors-container {
+        width: 90%;
+        flex-direction: column;
+        padding: 5px;
+        margin-left: auto;
+        margin: 0 auto; 
+      /*  justify-content: center;*/
+
+    }
+      
+    .author-name, .author-affiliations {
+        font-size: small;
+       justify-content: center;
+        align-items: center;
+    }
+    .pals-text {
+        max-width: 40%; /* Adjust the width to manage wrapping */
+        text-align: left;
+        font-size: 0.6em; /* Smaller font size */
+        margin-top:10px;
+        }
+    .pals-container {
+        position: relative;
+    }
+
+        .pals-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 30%; /* Center the pseudo-element */
+            transform: translateX(-50%); /* Center the pseudo-element with respect to its width */
+            width: 50%; /* Adjust to the width you prefer */
+            border-top: 1px solid rgba(134, 191, 255, 0.25);
+            height: 0; /* Ensures that the pseudo-element doesn't add any extra height */
+        }
+
+    /*mobile see the science*/
+    .evidence-modal {
+        max-width: 99%;
+    }
+    .modal-content {
+        width: 95%;
+        max-height: 80%;
+        padding: 10px;
+        font-size: 0.9em;
+    }
+    .evidence-modal img {
+        max-width: 99%;
+    }
+    .evidence-modal p.modal-copy {
+        
+        font-size: .6em;
+    }
+        /* .evidence-modal {
+        width: 90%;
+        max-height: 80%;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -10%);
+        align-items: flex-start;
+        justify-content: flex-start;
+        overflow-y: auto;
+    }*/
+        /*.evidence-button {
+        font-weight: 600;
+        padding: 5px 10px 5px 5px;
+        font-size: 12px;*/ /* adjust as needed */
+        /*margin: 20px 2px;
+        cursor: pointer;
+        border-radius: 12px;*/ /* adjust as needed for rounded corners */
+        /*transition: all 0.5s;*/ /* for a smooth hover effect */
+        /*}*/
+        /*mobile youtube and questions*/
+        .youtube-container {
+         margin-top: 20px;
+    }
+    #WhatYouLearned {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        }
+
+    /*mobile space above footer*/
+    .MuiBox-root {
+        padding-top: 0px !important;
+    }
+
+   }

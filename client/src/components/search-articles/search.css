@@ -1,0 +1,21 @@
+/*search bar*/
+
+.searchHeader {
+    font-size: 22pt !important;
+    font-weight: 600 !important;
+    margin-bottom: 20px;
+    color: #433592;
+}
+.searchFooter {
+    font-size: 10pt !important;
+    color:#A971DE;
+
+  }
+
+@media (max-width: 768px) {
+        .searchHeader {
+        font-size: 13pt !important;
+        padding-left:10px;
+        padding-top:10px;
+        }
+}

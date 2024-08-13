@@ -1,0 +1,144 @@
+.medexplain-containerR {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 32px 0px 32px;
+    background-color: #F9F9F9;
+    max-width: 100%;
+    margin: auto;
+}
+
+.medexplain-header-containerR {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.medexplain-body-containerR {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin: auto auto;
+}
+
+// Define general styles for images, which will be shared
+.researchImage {
+    width: 15%; // Default size for larger screens
+    height: auto;
+    margin: 0 70px; // Add some space around the images
+}
+
+.slick-slider {
+    margin-bottom: 30px;
+}
+// Media query for responsive adjustments
+@media (max-width: 768px) {
+
+    .medexplain-body-containerR {
+        flex-direction: column;
+        align-items: center; // Center align the images vertically
+    }
+
+    .researchImage {
+        width: 40%; // Increase the size on smaller screens
+    }
+
+    .medexplain-headerR {
+        padding-top: 55px;
+        text-align: center; // This will center the text
+        font-family: 'SF Pro', sans-serif;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 50px;
+        letter-spacing: -0.03em;
+        color: #000000;
+    }
+
+    .medexplain-headerR {
+        font-size: 20px; // Smaller text on smaller screens
+    }
+
+    .medexplain-containerR {
+        flex-direction: column;
+    }
+}
+
+
+
+/*.medexplain-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 2; // Take up twice the space as the image container if needed
+}*/
+/*
+.medexplain-content-container {
+    display: flex;
+    flex-direction: row; // Align content side by side
+    gap: 32px; // Space between text and images
+}*/
+/*.medexplain-content, */
+/*.medexplain-image {
+    flex: 1; // This will ensure that both the content and the image take up equal space
+}
+
+.informed {
+    color: #353C81;
+    font-weight:600;
+}*/
+/* Navigating health information online can be overwhelming and unreliable. */
+/*.medexplain-subheader {
+    font-family: 'SF Pro', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #262626;
+    text-align: center;
+    margin: 0; // Ensure there is no default margin
+    padding-bottom:50px;
+    @media (max-width: 768px) {
+        font-size: 14px;
+         }
+}
+
+    .medexplain-title,
+    .medexplain-subtitle {
+        font-family: 'SF Pro', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: -0.02em;
+        color: #000000; //#262626;
+        margin: 0; // Ensure there is no default margin
+    }
+
+.medexplain-story {
+    font-family: 'SF Pro', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #000000; //   #262626;
+    margin: 0; // Ensure there is no default margin
+    word-wrap: break-word; // Ensure text wraps in container
+    padding-bottom: 10px;
+}*/
+/*
+        @media (max-width: 768px) {
+            font-size: 24px;
+            padding: 25px 20px 20px 20px; // Add padding to prevent text from touching the sides
+            br {
+                display: none; // Hide line breaks to keep text on one line on small screens
+            }
+        }*/
+/*      .medexplain-title,
+        .medexplain-subtitle {
+            font-size: 22px; // Smaller title on smaller screens
+            padding-bottom: 15px;
+        }
+
+         .medexplain-story {
+            font-size: 16px; // Smaller body text on smaller screens
+        }
+*/
+
+

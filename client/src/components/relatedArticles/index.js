@@ -1,0 +1,8 @@
+//<RelatedArticlesList>
+//    <ArticleItem><IconDiv><ImageIcon src={getImageUrl("Pill.png")} alt="pill" /></IconDiv><a href="/articles?title=What should I do if I accidentally take an extra dose of amlodipine?">What should I do if I accidentally take an extra dose of amlodipine?</a></ArticleItem>
+//    <ArticleItem><IconDiv><ImageIcon src={getImageUrl("Pill Bottle.png")} alt="pill bottle" /></IconDiv><a href="/articles?title=How long will it take for amlodipine to lower my blood pressure?">How long will it take for amlodipine to lower my blood pressure?</a></ArticleItem>
+//    <ArticleItem><IconDiv><ImageIcon src={getImageUrl("Pill.png")} alt="pill" /></IconDiv><a href="/articles?title=What should I do if I accidentally take an extra dose of hydrochlorothiazide?">What should I do if I accidentally take an extra dose of hydrochlorothiazide?</a></ArticleItem>
+//    <ArticleItem><IconDiv><ImageIcon src={getImageUrl("Pill.png")} alt="pill" /></IconDiv><a href="/articles?title=What should I do if I accidentally take an extra dose of beta blocker?">What should I do if I accidentally take an extra dose of beta blocker?</a></ArticleItem>
+//    <ArticleItem><IconDiv><ImageIcon src={getImageUrl("Pill.png")} alt="pill" /></IconDiv><a href="/articles?title=What should I do if I accidentally take an extra dose of carvedilol?">What should I do if I accidentally take an extra dose of carvedilol?</a></ArticleItem>
+//    <ArticleItem><IconDiv><ImageIcon src={getImageUrl("Pill.png")} alt="pill" /></IconDiv><a href="/articles?title=What should I do if I accidentally take an extra dose of spironolactone?">What should I do if I accidentally take an extra dose of spironolactone?</a></ArticleItem>
+//</RelatedArticlesList>

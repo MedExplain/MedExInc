@@ -1,0 +1,66 @@
+.containercontact {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.home {
+  padding: 60px;
+  box-sizing: border-box;
+
+ /*.articletitle{
+      font-weight:600 !important;
+  }*/
+
+  h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    color: #453793;
+  }
+
+  .popularArticles {
+    width: 100%;
+
+    .articleItem {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      margin-bottom: 30px;
+
+      .viewImage {
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .viewDetail {
+        width: 100%;
+        padding-right: 30px;
+        box-sizing: border-box;
+
+        a{
+          font-weight: 600;
+          font-size: 16px;
+          color: #000;
+          text-decoration: none;
+
+          &:hover {
+            cursor: pointer;
+            color: #453793;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+    .containercontact {
+        justify-content: center; // Center align the container's content on mobile view
+        flex-basis: 95%;
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+    }

@@ -1,0 +1,123 @@
+.containercoming {
+    padding-top: 60px;
+  }
+div.image-column {
+    flex-basis: 70%;
+    padding-left: 5px;
+    padding-top: 0px;
+    padding-right: 5px;
+}
+
+div.text-column {
+    flex-basis: 30%;
+    padding-left: 35px;
+    padding-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .containercoming {
+        justify-content: center; // Center align the container's content on mobile view
+        padding-top: 60px;
+    }
+    h2.comingSoon {
+        text-align: center;
+    }
+    p.comingSoon {
+        text-align: center;
+    }
+    div.image-column {
+        flex-basis: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    div.text-column {
+        flex-basis: 100%;
+        padding-left: 37px;
+        padding-top: 15px;
+        }
+}
+
+
+
+
+
+.home {
+    padding: 60px;
+    box-sizing: border-box;
+
+    h2 {
+        text-align: center;
+        color: #453793;
+        padding-top: 80px;
+    }
+
+    .popularArticles {
+        width: 100%;
+
+
+        .articleItem {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            margin-bottom: 30px;
+
+            .viewImage {
+                width: 100px;
+                height: 100px;
+                margin-right: 20px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .viewDetail {
+                width: 100%;
+                padding-right: 30px;
+                box-sizing: border-box;
+
+                a {
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: #000;
+                    text-decoration: none;
+
+                    &:hover {
+                        cursor: pointer;
+                        color: #453793;
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        padding: 20px;
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        .popularArticles {
+            .articleItem {
+                flex-direction: column;
+
+                .viewImage {
+                    margin-right: 0;
+                    margin-bottom: 20px;
+                }
+
+                .viewDetail {
+                    padding-right: 0;
+
+                    a {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

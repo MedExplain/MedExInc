@@ -1,0 +1,104 @@
+.medexplain-containerS {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 32px 0px 32px;
+    background-color: #F9F9F9;
+    max-width: 100%;
+    margin: auto;
+}
+
+.medexplain-header-containerS {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.medexplain-containerS {
+    width: 99%;
+    /*  max-width: 600px; // Adjust based on your layout needs*/
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+
+.slick-slide img {
+    width: 100%; // Full width of the slide area
+    transition: transform 0.5s ease-in-out;
+}
+
+.slick-center img {
+    transform: scale(1.05); // Optional: Scale the centered image slightly
+}
+
+.slick-slide {
+    opacity: 0.8; // Reduce opacity to slightly focus on the center image
+}
+
+.slick-center {
+    opacity: 1; // Full opacity for the centered slide
+}
+
+.slick-prev, .slick-next {
+    color: #000;
+    z-index: 1;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 30px; // Adjust the size of the arrows
+}
+
+.slick-dots {
+    bottom: -25px;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 30px; // Adjust the size of the arrows
+}
+
+// Define general styles for images, which will be shared
+.researchImageS {
+    width: 90%; // Default size for larger screens
+    height: auto;
+    margin: 10px; // Add some space around the images
+}
+
+// Media query for responsive adjustments
+@media (max-width: 768px) {
+
+    .medexplain-body-containerS {
+        flex-direction: column;
+        width: 95%;
+        align-items: center; // Center align the images vertically
+    }
+
+    .researchImageS {
+        width: 60%; // Increase the size on smaller screens
+    }
+
+    .medexplain-headerS {
+        padding-top: 10px;
+        text-align: center; // This will center the text
+        font-family: 'SF Pro', sans-serif;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 50px;
+        letter-spacing: -0.03em;
+        color: #000000;
+    }
+
+    .slick-slide {
+        opacity: 1; // Ensure all slides are fully visible on mobile
+    }
+
+    .slick-slide img {
+        width: 99%;
+          }
+
+    .medexplain-headerS {
+        font-size: 20px; // Smaller text on smaller screens
+    }
+
+    .medexplain-containerS {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,62 @@
+
+/*.ais-SearchBox-form {*/
+ /*   position: relative;
+    // To position the search icon absolutely within width: 100%;
+    // Take full width of the container max-width: 650px;
+    // Match the max-width of the SearchInput display: flex;
+    justify-content: center;
+    // Center the search input and button margin-top: 32px;*/
+/*}
+
+.searchInput {
+    padding-left: 35px;
+    min-width: 650px;*/
+    /* max-width: 680px;*/
+    /*border-radius: 6px;
+    border: 1px solid #ddd;
+    margin-right: 0px;
+    font-size: 14px;
+    height: 45px;
+}
+    .searchInput:focus {
+        border-color: rgb(230,230,230);
+    }
+.ais-SearchBox-reset {
+    background-color: #E7EDFF;
+    color:white;
+}
+.ais-SearchBox-resetIcon {
+    background-color: #E7EDFF;
+    color: white;
+}
+
+.ais-SearchBox-submit {*/
+    /*   position: absolute;*/
+    /*left: 10px;
+    display: none;
+    background-color: transparent;*/
+    /*   top: 50%;
+    transform: translateY(-50%);*/
+    /*    color: #ccc;*/
+/*}*/
+.ais-SearchBox-submitIcon{
+    display:none;
+}
+
+li.ais-Hits-item {
+    /* color: #3C3E79;*/
+    color: #000000;
+}
+
+.searchFooter {
+    font-size: 10pt !important;
+    color: #A971DE;
+}
+
+@media (max-width: 768px) {
+        .searchHeader {
+        font-size: 13pt !important;
+        padding-left:10px;
+        padding-top:10px;
+        }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "medexplainweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "start-dev": "node server/index.js start-dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/cosmos": "^3.17.3",
+    "@azure/identity": "^3.2.3",
+    "@azure/keyvault-secrets": "^4.7.0",
+    "@azure/storage-blob": "^12.23.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.3.2",
+    "passport-azure-ad": "^4.3.5",
+    "react-icons": "^5.0.1"
+  }
+}

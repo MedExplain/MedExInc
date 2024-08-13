@@ -1,0 +1,50 @@
+.home {
+  padding: 60px;
+  box-sizing: border-box;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    color: #453793;
+    padding-top: 60px;
+  }
+
+  .popularArticles {
+    width: 100%;
+
+    .articleItem {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      margin-bottom: 30px;
+
+      .viewImage {
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .viewDetail {
+        width: 100%;
+        padding-right: 30px;
+        box-sizing: border-box;
+
+        a{
+          font-weight: 600;
+          font-size: 16px;
+          color: #000;
+          text-decoration: none;
+
+          &:hover {
+            cursor: pointer;
+            color: #453793;
+          }
+        }
+      }
+    }
+  }
+}

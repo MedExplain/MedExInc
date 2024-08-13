@@ -1,0 +1,85 @@
+﻿.App {
+  text-align: center;
+}
+/*.ais-SearchBox-submit path {
+    fill: #72a092;height:30px;
+    }
+.searchinput {
+    height: 26px;
+    border-color: rgb(230,230,230);
+}
+.searchinput:focus {
+        border-color: rgb(230,230,230);
+    }*/
+
+.ais-SearchBox-submit {
+    height: 30px;
+    width: 30px;
+    background-color: #ffffff;
+    border: none;
+}
+.ais-SearchBox-submitIcon {
+    height: 16px;
+    width: 16px;
+    stroke:green;
+}
+    .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+   
+ul {
+    padding-left: 35px;
+}
+ol {
+    padding-left: 35px;
+}
+
+/*li {
+    padding-left: 15px;
+}
+*/
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+    background-color: #d8eaff; /*#282c34;*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (min-width: 576px) {
+    div.MuiContainer-root {
+        padding-right: 0rem !important;
+        padding-left: 0rem !important;
+    }
+
+    div.outerMuiContainer-root {
+        border: 3px double #f3f7fd;
+        /* #dbedeb*/
+    }
+    div.innerspace {
+        padding: 1.3rem 0 0 0;
+    }
+}

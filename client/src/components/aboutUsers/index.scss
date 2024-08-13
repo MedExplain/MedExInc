@@ -1,0 +1,104 @@
+// WorldInfoComponent.scss
+
+.world-info-container {
+    position: relative;
+    width: 100%; // This might need to be adjusted based on the parent container's width
+    height: 455px; // Adjusted to match the height in your original specs
+    background: radial-gradient(123.52% 123.52% at 50% 100%, #DDE5FF 0%, rgba(255, 255, 255, 0) 100%);
+    overflow: hidden; // This will hide the overflowed part of the world image
+}
+
+.medical-information {
+    position: absolute;
+    width: 100%; // Adjusted to span the entire container width
+    top: 30px;
+    text-align: center; // This will center the text
+    font-family: 'SF Pro', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: #000000;
+
+    @media (max-width: 768px) {
+        font-size: 24px;
+        padding: 30px 20px 20px 20px; // Add padding to prevent text from touching the sides
+        br {
+            display: none; // Hide line breaks to keep text on one line on small screens
+        }
+    }
+}
+
+.world-image {
+    position: absolute;
+    background-position: top !important;
+    width: 532px;
+    height: 280px;
+    bottom: 0; // Adjusted to be at the bottom of the container
+    left: 50%; // Center horizontally
+    transform: translateX(-50%) rotate(0); // Adjust translation for centering and apply rotation
+    background-image: url('../../assets/images/about/world.png');
+    background-size: cover;
+    background-position: center;
+    filter: drop-shadow(4px -4px 16px rgba(247, 247, 247, 0.25));
+    @media (max-width: 768px) {
+        width: 333px; // Half the original size
+        height: 180px; // Maintain the aspect ratio
+        bottom: -30px; // Adjust to how much of the globe you want to cut off
+        transform: translateX(-50%); // Remove rotation on small screens
+    }
+}
+
+.visitors-count {
+    position: absolute;
+    width: 246.92px;
+    height: 111.06px;
+    top: 250px;
+    left: 190px;
+    font-family: 'SF Pro', sans-serif;
+    font-weight: 700;
+    font-size: 47.5984px;
+    line-height: 57px;
+    letter-spacing: -0.03em;
+    color: #8FBEFE;
+
+    @media (max-width: 768px) {
+        padding-top: 140px;
+    }
+}
+
+.countries-count {
+    position: absolute;
+    width: 281.62px;
+    height: 111.06px;
+    top: 250px;
+    left: 1040px;
+    font-family: 'SF Pro', sans-serif;
+    font-weight: 700;
+    font-size: 47.5984px;
+    line-height: 57px;
+    letter-spacing: -0.03em;
+    color: #8FBEFE;
+
+    @media (max-width: 768px) {
+     padding-top: 60px;
+    }
+}
+
+.visitors-count,
+.countries-count {
+    // Existing styles...
+    // Adjust text size and position for smaller screens
+    @media (max-width: 768px) {
+        position: static; // Default static position
+        width: auto; // Width based on content
+        font-size: 24px; // Smaller font size
+        margin: 10px 0; // Add margin for spacing between elements
+        line-height: normal; // Adjust line height if needed
+        text-align: center; // Center-align the text
+    }
+}
+
+
+
+       

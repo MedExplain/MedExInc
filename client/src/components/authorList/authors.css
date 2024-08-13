@@ -1,0 +1,95 @@
+.form-container {
+    margin-top: 120px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+a.add-new-author-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px; /* or as per your layout */
+    background-color: #007bff; /* Bootstrap primary button color */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.add-new-author-button:hover {
+    background-color: #0056b3; /* a darker shade for hover effect */
+    color: #00FF00;
+}
+
+.table-header {
+    text-align: left;
+    padding-right: 15px; /* Or any value you see fit for space between columns */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd; /* light grey border */
+    text-align: left;
+}
+
+/* Zebra striping for rows */
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect for rows */
+tbody tr:hover {
+    background-color: #ddd; /* light grey background on hover */
+}
+.no-headshot {
+    color: red;
+    font-weight: bold;
+}
+
+.author-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.success-message {
+    margin-top: 10px;
+    color: green;
+    font-size: 16px;
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+    .submit-button:hover {
+        background-color: #45a049;
+    }

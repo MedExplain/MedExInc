@@ -1,0 +1,194 @@
+/*.medexplain-containerB {
+    display: flex;
+    flex-direction: column;
+    padding: 0 32px 32px 32px;
+    background-color: #F9F9F9;
+    max-width: 100%;
+    margin: auto;
+}
+
+.medexplain-header-containerB {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.medexplain-body-containerB {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.researchImageB {
+    width: 90%; // Default size for larger screens
+    height: auto;
+    margin: 10px; // Add some space around the images
+}*/
+
+.medexplain-containerB {
+    display: flex;
+    flex-direction: column;
+    padding: 0 32px 32px 32px;
+    background-color: #F9F9F9;
+    max-width: 100%;
+    margin: auto;
+}
+
+.medexplain-header-containerB {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.medexplain-body-containerB {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start; // Align the items at the top of the container
+    gap: 32px;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1; // Take up equal space in the flex container
+}
+
+.researchImageB {
+    width: 90%; // Adjusted for the image size on larger screens
+    height: auto;
+    margin-top: 10px; // Space between text and image
+}
+
+.medexplain-subtitleB {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #353C81;
+    width: 100%; // Ensure the text spans the width of its container
+}
+
+/*.researchImageB {
+    flex: 1; // Allows images to fill the space evenly
+    width: 48%; // Adjusts the width to allow some gap in between
+    height: auto;
+}*/
+
+/*
+.medexplain-content-containerN {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 2; // Take up twice the space as the image container if needed
+}*/
+
+/*
+.medexplain-content-container {
+    display: flex;
+    flex-direction: row; // Align content side by side
+    gap: 32px; // Space between text and images
+}*/
+
+/*.medexplain-content, */
+/*.medexplain-image {
+    flex: 1; // This will ensure that both the content and the image take up equal space
+}*/
+
+/*.informed {
+    color: #353C81;
+    font-weight:600;
+}*/
+
+.medexplain-headerB {
+    padding-top: 50px;
+        text-align: center; // This will center the text
+        font-family: 'SF Pro', sans-serif;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 50px;
+        letter-spacing: -0.03em;
+        color: #000000;
+
+        @media (max-width: 768px) {
+            font-size: 24px;
+            padding: 0 20px; // Add padding to prevent text from touching the sides
+            br {
+                display: none; // Hide line breaks to keep text on one line on small screens
+            }
+        }
+    }
+/* Navigating health information online can be overwhelming and unreliable. */
+
+
+/*.medexplain-subheaderB {
+    font-family: 'SF Pro', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #262626;
+    text-align: center;
+    margin: 0; // Ensure there is no default margin
+    padding-bottom: 50px;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
+}*/
+
+
+.medexplain-subtitleB {
+    font-family: 'SF Pro', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #000000; //#262626;
+    margin: 0; // Ensure there is no default margin
+}
+/*
+.medexplain-storyB {
+    font-family: 'SF Pro', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #000000; //   #262626;
+    margin: 0; // Ensure there is no default margin
+    word-wrap: break-word; // Ensure text wraps in container
+    padding-bottom: 10px;
+}*/
+    // Media query for responsive adjustments
+@media (max-width: 768px) {
+    .medexplain-body-containerB {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .medexplain-headerB {
+        font-size: 20px; // Smaller text on smaller screens
+    }
+
+    .medexplain-subtitleB {
+        font-size: 18px; // Smaller title on smaller screens
+       /* padding-bottom: 15px;*/
+    }
+
+    researchImageB {      
+        width: 99%; // Adjusts the width to allow some gap in between
+        height: auto;
+    }
+    }
+    /*
+        .medexplain-storyB {
+            font-size: 16px; // Smaller body text on smaller screens
+        }
+        .researchImage {
+            width: 60%; // Increase the size on smaller screens
+        }
+
+        .medexplain-containerB {
+            flex-direction: column;
+        }
+    }
+
+      */
+
