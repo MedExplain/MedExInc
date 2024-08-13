@@ -1,6 +1,5 @@
 version = 1
 
-# The test_patterns are the files or directories that should be excluded from analysis.
 test_patterns = [
   "tests/**/*",
   "test/**/*",
@@ -14,15 +13,10 @@ test_patterns = [
 name = "javascript"
 enabled = true
 
-  [analyzers.meta]
-  runtime_version = "16.x.x" # Set the Node.js version used in your project
-
   [analyzers.configs]
-  # This enables TypeScript support if your React project uses TypeScript
-  tsconfig = "./tsconfig.json"
+  tsconfig = "./tsconfig.json" # If using TypeScript
 
-  # ESLint configuration
   eslint_config = "./.eslintrc.json" # Path to your ESLint configuration file
 
-  # Enable JSX support
   jsx = true
+
